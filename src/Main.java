@@ -1,9 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        int[] numbers = ArrayMethods.createArray(20,0,10);
-        for (int number:numbers) {
-            System.out.println(number);
-        }
-
-        }
+        int[] numberArray = CreateArrays.CreateMinMaxArray(20, 0, 10);
+        OwnSort.Sort(numberArray);
+        ArrayMethods.PrintArray(numberArray);
     }
+
+}

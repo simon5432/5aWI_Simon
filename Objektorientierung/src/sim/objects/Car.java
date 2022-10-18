@@ -24,10 +24,6 @@ public class Car {
         this.tires = new ArrayList<>();
     }
 
-    public void addMirror(RearviewMirror rearMirror) {
-        this.rearMirrors.add(rearMirror);
-    }
-
     public List<RearviewMirror> getRearMirrors() {
         return rearMirrors;
     }
@@ -35,11 +31,11 @@ public class Car {
     //methods
     public void drive(float speed){
         float fuelMultiplier = (speed/100); //forces values between 0 and 1 so they can be used as a multiplier
-        System.out.println(tank.currentCapacity);
+        //System.out.println(tank.currentCapacity);
         if (tank.currentCapacity > fuelconsumption * fuelMultiplier) {
             tank.currentCapacity -= fuelconsumption * fuelMultiplier;
-            System.out.println("driving with " + this.engine.getHorsePower() + " horsepower and" + speed + "km/h fast" +
-                    "\n" + this.tank.currentCapacity + " liters of fuel are left");
+            System.out.println("driving with " + this.engine.getHorsePower() + " horsepower and " + speed + "km/h fast");
+            System.out.println(fuelconsumption * fuelMultiplier +" liters of fuel were used, "+ this.tank.currentCapacity + " liters are left");
             return;
         }
         System.out.println("not enough fuel");

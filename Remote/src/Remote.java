@@ -31,19 +31,19 @@ public class Remote {
     public void pressButton(int number){
         switch(number){
             case 0:
-                System.out.println("i ist null");
+                System.out.println("Knopf 6 gedrückt");
                 break;
             case 1:
-                System.out.println("i ist eins");
+                System.out.println("Knopf 5 gedrückt");
                 break;
             case 2:
-                System.out.println("i ist zwei");
+                System.out.println("Knopf 4 gedrückt");
                 break;
             case 3:
-                System.out.println("i ist drei");
+                System.out.println("Knopf 3 gedrückt");
                 break;
             default:
-                System.out.println("Diesen Button gibt es leider nicht");
+                System.out.println("Diesen Knopf gibt es leider nicht");
                 break;
         }
     }

@@ -7,9 +7,9 @@ public class Main {
         remote1.add(bat1);
         remote1.add(bat2);
         remote1.getBatteries();
-        remote1.TurnOn();
+        remote1.turnOn();
         remote1.getStatus();
         bat1.setCapacityPercentage(4);
-        remote1.TurnOn();
+        remote1.turnOn();
     }
 }

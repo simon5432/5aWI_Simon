@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="labor1070.labor.ad.htldornbirn.at" id="6abe8474-0399-4865-b58b-3c470dbf4df1" port="22" nameFormat="DESCRIPTIVE" username="vizdata" useOpenSSHConfig="true" />
+    </configs>
+  </component>
+</project>

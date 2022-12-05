@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="61133425-e0f2-4d4a-9764-84652ec329de" name="Labor">
+        <fileTransfer rootFolder="/home/vizdata/vizdata" accessType="SFTP" host="labor1070.labor.ad.htldornbirn.at" port="22" sshConfigId="6abe8474-0399-4865-b58b-3c470dbf4df1" sshConfig="vizdata@labor1070.labor.ad.htldornbirn.at:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

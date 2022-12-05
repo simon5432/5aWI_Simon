@@ -59,4 +59,15 @@ public class Auto {
         return price;
     }
 
+    public double getConsumption() {
+        return consumption;
+    }
+
+    public int getKmZahl() {
+        return kmZahl;
+    }
+
+    public void setKmZahl(int kmZahl) {
+        this.kmZahl = kmZahl;
+    }
 }

@@ -1,6 +1,7 @@
 import at.simon.examples.cars.Auto;
 import at.simon.examples.cars.Manufacturer;
 import at.simon.examples.cars.Motor;
+import at.simon.examples.cars.Truck;
 
 public class Main {
     public static void main(String[] args) {
@@ -10,5 +11,9 @@ public class Main {
         auto.drive(30000);
         auto.drive(30000);
         auto.drive(30000);
+
+        Truck t1 = new Truck("blue",4,400000,23,manufacturer,motor,300,"trailer1");
+        System.out.println(t1.getColor() + t1.getTrailer());
     }
+
 }
